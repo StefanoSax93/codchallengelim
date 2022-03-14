@@ -1,0 +1,79 @@
+body {
+  background-image: url(img/bg1.jpg);
+  background-size: cover;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 900px;
+  height: 670px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  padding: 0px 50px 0px 50px;
+}
+/* Titolo+logo */
+header > div {
+  padding: 70px 200px 0px 200px;
+}
+
+.logo {
+  width: 200px;
+  height: 90px;
+  margin: 0px 120px 0px 120px;
+}
+
+header h1 {
+  color: lime;
+  margin-top: -2px;
+  height: 30px;
+}
+
+/* Barra navigazione */
+.box {
+  border-radius: 3px;
+}
+
+.box.lime {
+  background-color: lime;
+  height: 35px;
+  margin-top: -10px;
+}
+
+nav div {
+  padding: 7px 280px 7px 280px;
+}
+
+/* Parte centrale */
+section h2 {
+  display: inline-block;
+  color: white;
+  margin-bottom: 5px;
+}
+
+section p {
+  color: white;
+  margin: auto;
+}
+
+.box.orange {
+  background-color: orange;
+  height: 30px;
+  width: 300px;
+}
+
+.box.green {
+  background-color: #228B22;
+  height: 30px;
+  width: 530px;
+}
+
+.box.red {
+  background-color: rgb(200,20,60);
+  height: 30px;
+  width: 140px;
+}
